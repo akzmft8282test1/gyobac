@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>사이트맵</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", sans-serif;
+      line-height: 1.6;
+      color: #222;
+      max-width: 720px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .toc-box {
+      background: #f8f9fa;
+      border: 1px solid #e2e6ea;
+      border-radius: 10px;
+      padding: 24px 28px;
+    }
+    .toc-box h1 {
+      font-size: 1.3rem;
+      margin: 0 0 16px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #dee2e6;
+    }
+    .toc-group {
+      margin-bottom: 18px;
+    }
+    .toc-group-title {
+      font-weight: 700;
+      color: #495057;
+      margin-bottom: 6px;
+    }
+    .toc-list {
+      list-style: none;
+      padding-left: 14px;
+      margin: 0;
+    }
+    .toc-list li {
+      margin: 6px 0;
+    }
+    .toc-list a {
+      color: #1d4ed8;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .toc-list a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="toc-box" aria-label="사이트 목차">
+    <h1>사이트 목차</h1>
+
+    <div class="toc-group">
+      <div class="toc-group-title">1. 소개</div>
+      <ul class="toc-list">
+        <!-- 현재 폴더 아래 gwansang 폴더 안의 index.html로 연결 -->
+        <li><a href="./gwansang/index.html">관상</a></li>
+      </ul>
+    </div>
+
+    <div class="toc-group">
+      <div class="toc-group-title">공부</div>
+      <ul class="toc-list">
+        <!-- 현재 폴더 아래 hakseup 폴더 안의 파일들로 연결 -->
+        <li><a href="./hakseup/index1.html">학습1</a></li>
+        <li><a href="./hakseup/index2.html">학습2</a></li>
+      </ul>
+    </div>
+  </nav>
+
+</body>
+</html>
